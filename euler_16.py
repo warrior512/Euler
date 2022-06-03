@@ -6,6 +6,4 @@
 
 #What is the sum of the digits of the number 21000?
 
-n = 2**1000
-l = [int(x) for x in str(n)]
-print(sum(l))
+print(sum(int(i) for i in str(2**10000)))
